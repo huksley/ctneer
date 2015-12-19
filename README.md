@@ -1,6 +1,6 @@
 # ctneer
 
-Manage options and script as single **dabfile** for easy container template creation.
+Manage options and script as single **dabfile** for easy container LXC/PVE template creation.
 
 Build container (and deploy VM) using single **dabfile**.
 
