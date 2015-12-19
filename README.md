@@ -1,12 +1,10 @@
 # ctneer
 
-Manage options and script as single script for *debian-appliance-control*
+Manage options and script as single *dabfile* for easy container template creation.
 
 Build container (and deploy VM) using single *dabfile*.
 
 Uses dab command from https://pve.proxmox.com/wiki/Debian_Appliance_Builder
-
-
 
 ## dab.conf format
 ```
