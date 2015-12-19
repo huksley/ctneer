@@ -1,23 +1,12 @@
 # ctneer
 
-Manage options and script as single *dabfile* for easy container template creation.
+Manage options and script as single **dabfile* for easy container template creation.
 
-Build container (and deploy VM) using single *dabfile*.
+Build container (and deploy VM) using single **dabfile**.
 
 Uses dab command from https://pve.proxmox.com/wiki/Debian_Appliance_Builder
 
-## dab.conf format
-```
-Suite: jessie
-Architecture: amd64
-Name: minimal
-Version: 8.2-1
-Section: system
-Maintainer: Proxmox Support Team <support@proxmox.com>
-Infopage: https://pve.proxmox.com/wiki/Debian_Appliance_Builder
-Description: Debian 8
-```
-## dabfile format (dab.conf extension)
+## dabfile format example (dab.conf extension)
 
 ```
 # Optional: template name, instead of default OS-generated.
