@@ -219,6 +219,8 @@ if [[ "$DOTEMPLATE" == "1" || "$TEMPLATE_FOUND" == 0 ]]; then
 	echo "Error: $DAB_FILE.tar.gz not created! %EXEC is invalid (does you issue dab finalize?)"
 	exit 2
     fi
+else 
+	echo "Template $TEMPLATE_NAME up-to-date with $DABFILE"
 fi
 
 echo Using template: $TEMPLATE_NAME
