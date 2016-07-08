@@ -228,7 +228,7 @@ echo Using template: $TEMPLATE_NAME
 if [[ "$DODEPLOY" == "1" ]]; then
     LASTVM=` pct list | cut -d" " -f1 | sort -g -r | head -n 1`
     LASTVM=`expr $LASTVM + 1`
-    echo "Creating vm $LASTVM $TEMPLATE_NAME $*"
+    echo "Creating vm $LASTVM $TEMPLATE_CACHE/$TEMPLATE_NAME.tar.gz $*"
     pct create $LASTVM $TEMPLATE_CACHE/$TEMPLATE_NAME.tar.gz $*
     ERR=$?
     if [[ "$ERR" != "0" ]]; then
